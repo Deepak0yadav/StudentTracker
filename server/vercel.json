@@ -1,8 +1,9 @@
 {
+  "version": 2,
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "server/app.js"
+      "src": "/api/(.*)",
+      "dest": "app.js"
     }
   ]
 }
